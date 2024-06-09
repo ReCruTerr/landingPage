@@ -1,0 +1,208 @@
+
+.SliderHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.SliderHeader img { 
+   cursor: pointer;
+}
+.firstSliderContainer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  max-width: 755px;
+  margin-top: 30px;
+  width: 100%;
+  min-height: 645px;
+   background-color: #fff;
+  height: 100%;
+  border-radius: 12px;
+  margin:30px;
+  overflow: hidden;
+}
+.firstSliderContainer__item--1__second {
+  background-color: #E7ECEE ;
+  max-width: 285px;
+  width: 100%;
+  display: flex;
+  min-height: 350px;
+
+  margin-top: 0;
+  flex-direction: column;
+}
+.people  { 
+   max-width: 285px;
+   width: 100%;
+
+}
+.firstSliderContainer__item--1__second hr { 
+   min-height: 1px;
+   background-color: #C7C1F3;
+   max-width: 280px;
+   width: 100%;
+   border: none;
+}
+
+.firstSliderContainer__item--1__second--firstChild {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 13%;
+}
+.firstSliderContainer__item--1__second--firstChild li:first-child { 
+   min-height: 1px;
+   height: 100%;
+   max-width: 80px;
+   width: 100%;
+   background-color: #C7C1F3;
+} 
+.firstSliderContainer__item--1__second--secondChild { 
+   display: flex;
+   justify-content: flex-end;
+}
+.firstSliderContainer__item--1__second--secondChild img { 
+   max-width: 84px;
+   width: 100%;
+   max-height: 68px;
+   height: 100%;
+}
+.firstSliderContainer__item--1__second--firstChild li:nth-child(2) { 
+   max-width: 111px;
+   font-size: 11px;
+   color: #363B3D;
+   text-transform: uppercase;
+   width: 100%;
+   text-align: center;
+}  
+
+.firstSliderContainer__item--1__second--firstChild li:last-child { 
+   min-height: 1px;
+   height: 100%;
+   max-width: 80px;
+   width: 100%;
+   background-color: #C7C1F3;
+}  
+
+.firstSliderContainer__item--1__second--lastChild { 
+   display: grid;
+   grid-template-columns: 45px 180px;
+   grid-template-rows: 60px 45px;
+   text-align: center;
+}
+.firstSliderContainer__item--1__second--lastChild p {
+   font-size: 11px;
+   color: #363B3D;
+}
+.firstSliderContainer__item--1__second--lastChild span { 
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+   color: #636769;
+}
+.firstSliderContainer__item--2 { 
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.firstSliderContainer__item--2 h2 {
+   font-size: 30px;
+   color: #2B2B2B;
+   max-width: 266px;
+   text-align: left;
+}
+.firstSliderContainer__item--2 p { 
+   max-width: 285px;
+   color: #636769;
+   font-size: 16px;
+   text-align: left;
+}
+.LearnLink__item { 
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+  background-color: #7569CF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 135px;
+  width: 100%;
+  min-height: 54px;
+  height: 100%;
+  border: 1px solid #574D9C ; 
+  transition: all 0.2s ease-in-out;
+}
+.firstSliderContainer__item--2 hr {
+   min-height: 1px;
+   background-color: #9AA6AC;
+   max-width: 280px;
+   width: 100%;
+   border: none;
+}
+.LearnLink {
+  text-align: left
+}
+.Docs {
+  display: flex;
+  gap: 15px;
+
+}
+.Docs a { 
+   text-decoration: none;
+   color: #6157AB;
+   font-size: 16px;
+   font-weight: 400;
+   display: flex;
+   align-items: center;
+}
+.book { 
+   max-width: 24px;
+   width: 100%;
+   max-height: 30px;
+
+}
+.secondSliderHeader{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+.secondSliderContainer {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      align-items: center;
+      max-width: 755px;
+      margin-top: 30px;
+      width: 100%;
+      min-height: 645px;
+       background-color: #fff;
+      height: 100%;
+      border-radius: 12px;
+      margin:30px;
+}
+.thirdSliderHeader {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.thirdSliderContainer {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   align-items: center;
+   max-width: 755px;
+   margin-top: 30px;
+   width: 100%;
+   min-height: 645px;
+    background-color: #fff;
+   height: 100%;
+   border-radius: 12px;
+   margin:30px;
+}
